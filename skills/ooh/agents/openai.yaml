@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ooh Agent Workflow"
+  short_description: "Manage parallel Git tasks and review checkpoints"
+  default_prompt: "Use $ooh to work in an Ooh task, create checkpoints, handle feedback, and integrate only when requested."

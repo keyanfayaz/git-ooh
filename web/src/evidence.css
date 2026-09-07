@@ -1,0 +1,51 @@
+.evidence {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  border: solid var(--border);
+  border-width: 0 1px 1px;
+  background: var(--paper);
+  padding: 12px 18px;
+}
+
+.evidence > div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.evidence > div > span {
+  color: var(--muted);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-right: 3px;
+}
+
+.evidence strong {
+  padding: 5px 8px;
+  background: #f0f2ed;
+  border-radius: 6px;
+  font-size: 10px;
+}
+
+.evidence small,
+.evidence p {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.evidence p {
+  font-size: 11px;
+  margin: 0;
+}
+
+.evidence input {
+  display: none;
+}
+
+.notice .button {
+  margin-top: 12px;
+}

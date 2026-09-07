@@ -1,0 +1,12 @@
+{
+  "name": "git-ooh",
+  "private": true,
+  "packageManager": "pnpm@10.33.2",
+  "scripts": {
+    "build": "pnpm --dir web build",
+    "check": "pnpm --dir web check",
+    "dev": "pnpm --dir web dev",
+    "test": "pnpm --dir web test"
+  }
+}
+
