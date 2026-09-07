@@ -1,0 +1,41 @@
+name: Bug report
+description: Tell us when Ooh behaves unexpectedly
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping improve Ooh. Please remove private source, secrets, tokens, and repository paths.
+  - type: input
+    id: version
+    attributes:
+      label: Ooh version
+      placeholder: Output of ooh version
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: macOS 15, Git 2.50
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Use a small disposable repository if possible.
+    validations:
+      required: true
